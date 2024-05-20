@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_ejednev"
+        android:title="Ежедневник"
+        android:icon="@drawable/zametki" />
+
+    <item
+        android:id="@+id/nav_zametki"
+        android:title="Заметки"
+        android:icon="@drawable/zametki" />
+
+    <item
+        android:id="@+id/nav_novosti"
+        android:title="Новости"
+        android:icon="@drawable/novosti" />
+
+    <item
+        android:id="@+id/nav_spisok"
+        android:title="Список покупок"
+        android:icon="@drawable/spisok" />
+
+    <item
+        android:id="@+id/nav_forum"
+        android:title="Форум"
+        android:icon="@drawable/forum" />
+</menu>

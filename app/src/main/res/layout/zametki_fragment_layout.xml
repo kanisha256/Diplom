@@ -1,0 +1,31 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"> <!-- Светлый пастельный фон -->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp" /> <!-- Добавлен отступ для воздушности -->
+
+    <ImageButton
+        android:id="@+id/addButton"
+        android:layout_width="67dp"
+        android:layout_height="67dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="65dp"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/plus"
+        android:background="@android:color/transparent"
+        android:elevation="8dp"
+        android:backgroundTint="#6200EE"
+        android:shape="oval"
+        app:tint="#000000" />
+
+</FrameLayout>
+
+
+

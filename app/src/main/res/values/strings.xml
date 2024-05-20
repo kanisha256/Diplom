@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Diplom</string>
+    <string name="hint_enter_event">Enter event details</string>
+    <string name="add_event">Add Event</string>
+    <string name="recommendations">Recommendations</string>
+</resources>
